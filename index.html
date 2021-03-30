@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Webové aplikace</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark">
+    <header>
+        <br>
+        <div class="container">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top ">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Nahoru</a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#typy">Typy webových aplikací</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fáze návrhu webové aplkiace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bezpečnostní rizika webových api</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Redakční systémy a e-commerce</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <br>
+        <hr>
+        <div class="container text-center bg-dark">
+            <h1 class="text-warning">
+                Webové aplikace
+            </h1>
+        </div>
+    </header>
+    <main>
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="container bg-warning"  id="typy">
+                <div class="container text-center">
+                    <hr>
+                    <h3>Typy webových aplikací</h3>
+                    <hr>
+                </div>
+                <ul class="text-dark">
+                    <li>
+                        <b>API</b> (zkratka pro Application Programming Interface) označuje v informatice rozhraní pro
+                        programování aplikací
+                    </li>
+                    <li>
+                        V programátorské praxi se můžeme setkat s celou řadou API
+                        <ul>
+                            <li>
+                                API operačních systémů
+                            </li>
+                            <li>
+                                Grafickými API
+                            </li>
+                            <li>
+                                Api databázových a informačních systémů
+                            </li>
+                        </ul>
+                    </li>
+                    <li>API se nyní hojně využívá při vývoji mobilních i webových aplikací a tvorbě internetových
+                        stránek</li>
+                    <li>Smyslem webových API je zajištění komunikace mezi dvěma platformami, které si vzájemně vyměňují
+                        data </li>
+                    <li>V praxi se s integrací aplikačního rozhraní setkáváme třeba na stránkách zobrazujících polohu
+                        obchodu na Google mapách <b>GoogleMap API</b></li>
+                    <li>Další populární api
+                        <ul>
+                            <li>YouTube API</li>
+                            <li>Twitter API</li>
+                            <li>Amazon API</li>
+                        </ul>
+                    </li>
+                    <li>K implementaci API lze přistupovat několika způsoby</li>
+                    <li>Nejstarším prostředkem zůstává takzvaný Simple Object Access Protocol, zkráceně <b>SOAP</b>
+                        (využívá XML)</li>
+                    <li>Jeho cílem je snazší sdílení informací různých aplikací, běžících v různých prostředích nebo v
+                        různých jazycích</li>
+                    <li>Dnes je využíván převážně bankami a pojišťovnami; v ČR tento typ API využívá systém <b>EET</b>
+                    </li>
+                    <li>V širším měřítku je ovšem vytlačován <b>REST API</b> (někdy RESTfull API)</li>
+                    <li>Na rozdíl od SOAP, je to architektura fungující na principu klient-server, kdy veškerá
+                        uživatelská data zůstávají uložena na straně klienta</li>
+                    <li>Díky tomu by nemělo dojít k úniku citlivých dat</li>
+                    <li>Jedná se o pravděpodobně nejpoužívanější řešení určené k tvorbě aplikačních rozhraní. Ke své
+                        funkci využívá HTTP protokol</li>
+                    <li>Následníkem REST API je <b>GRAPHQL</b>, původně vyvíjené Facebookem, který ho také používá v
+                        rámci své sociální sítě</li>
+                    <li>Časem se z něj stal open-source a může tak být bezplatně využíván širokou veřejností</li>
+                    <li>GRAPHQL je jazyk dotazů, který běží <b> na straně serveru</b></li>
+                    <li>Umožňuje stahovat data z více zdrojů najednou, což znatelně ulehčuje práci programátorů</li>
+                    <li>Nabízí větší rychlost zpracování než REST API, má bohatší škálu využití, není závislý na
+                        architektuře a lze ho implementovat i nad stávající REST API.</li>
+                </ul>
+                <hr>
+            </div>
+            <br>
+            <div class="container bg-warning" id="con">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, voluptate possimus reiciendis
+                    mollitia ipsam tempora tenetur reprehenderit asperiores similique enim praesentium rerum ut impedit
+                    vitae sed labore quod fugiat aperiam!</p>
+            </div>
+            <br>
+            <div class="container bg-warning" id="con">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate cumque quas impedit
+                    reprehenderit aspernatur sint harum necessitatibus delectus optio fuga, non magnam minus accusamus
+                    amet dolores ipsam sequi ipsum esse?</p>
+            </div>
+            <br>
+            <div class="container bg-warning" id="con">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, quod cupiditate ipsam
+                    consequuntur esse quam corrupti fugiat, ratione iusto nesciunt exercitationem ullam sed aliquid
+                    aspernatur qui eos eveniet unde! Itaque?</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-dark">
+        <hr>
+        <div class="container bg-muted text-warning text-center"> &lt;== &copy; 2021 - IT4 - Jureček ==&gt; </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
