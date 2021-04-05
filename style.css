@@ -1,3 +1,23 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(EncodeSansCondensed-Black.ttf);
+
+ }
+
+
+ 
+
+ table{
+    margin-left: 30px;
+    
+}
+* {
+    font-family: myFirstFont;
+ }
+
+
+ 
+
 #rizika {
     border-radius: 15px;
 }
@@ -15,9 +35,7 @@
 }
 
 
-table{
-    margin-left: 30px;
-}
+
 
 
 
@@ -155,11 +173,4 @@ table{
     color: rgb(32, 32, 32);
   }
 
-  @font-face {
-    font-family: myFirstFont;
-    src: url(EncodeSansCondensed-Black.ttf);
- }
- 
- * {
-    font-family: myFirstFont;
- }
+
